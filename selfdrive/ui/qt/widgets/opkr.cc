@@ -225,6 +225,7 @@ CarRecognition::CarRecognition() : AbstractControl("차량강제인식", "핑거
   vehicle_select_menu->addAction("GRANDEUR_IG_FL", [=]() {carname = "GRANDEUR_IG_FL";});
   vehicle_select_menu->addAction("GRANDEUR_IG_FL_HEV", [=]() {carname = "GRANDEUR_IG_FL_HEV";});
   vehicle_select_menu->addAction("NEXO", [=]() {carname = "NEXO";});
+  vehicle_select_menu->addAction("TUCSON_TL", [=]() {carname = "TUCSON_TL";});
   vehicle_select_menu->addAction("K3", [=]() {carname = "K3";});
   vehicle_select_menu->addAction("K5", [=]() {carname = "K5";});
   vehicle_select_menu->addAction("K5_HEV", [=]() {carname = "K5_HEV";});
@@ -326,6 +327,7 @@ CarSelectCombo::CarSelectCombo() : AbstractControl("차량강제인식", "핑거
   combobox.addItem("GRANDEUR_IG_FL");
   combobox.addItem("GRANDEUR_IG_FL_HEV");
   combobox.addItem("NEXO");
+  combobox.addItem("TUCSON_TL");
   combobox.addItem("K3");
   combobox.addItem("K5");
   combobox.addItem("K5_HEV");
