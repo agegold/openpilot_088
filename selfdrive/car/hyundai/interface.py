@@ -169,7 +169,10 @@ class CarInterface(CarInterfaceBase):
     elif candidate == CAR.NEXO:
       ret.mass = 1885. + STD_CARGO_KG
       ret.wheelbase = 2.79
-    # kia
+    elif candidate == CAR.TUCSON_TL_SCC:
+      ret.mass = 1594. + STD_CARGO_KG #1730
+      ret.wheelbase = 2.67
+      # kia
     elif candidate == CAR.SORENTO:
       ret.mass = 1985. + STD_CARGO_KG
       ret.wheelbase = 2.78
