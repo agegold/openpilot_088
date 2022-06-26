@@ -191,7 +191,7 @@ class CarInterface(CarInterfaceBase):
     elif candidate in [CAR.NIRO_HEV, CAR.NIRO_EV]:
       ret.mass = 1737. + STD_CARGO_KG
       ret.wheelbase = 2.7
-    elif candidate in [CAR.K7, CAR.K7_HEV]:
+    elif candidate in [CAR.K7, CAR.K7_HEV, CAR.K7_2020]:
       ret.mass = 1680. + STD_CARGO_KG
       ret.wheelbase = 2.855
     elif candidate == CAR.SELTOS:
